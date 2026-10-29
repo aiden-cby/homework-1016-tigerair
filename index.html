@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <!-- 漢堡選單 -->
+        <input type="checkbox" name="" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hambuger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <a href="" class="logo">tigerair</a>
+
+        <nav>
+            <ul>
+                <li><a href="#">準備出發</a></li>
+                <li><a href="#">歡迎登機</a></li>
+                <li><a href="#">虎迷優惠</a></li>
+                <li><a href="#">虎迷須知</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-tools">
+            <a href="#">🔍<span>航班搜尋</span></a>
+            <a href="#">👤<span>登入/註冊</span></a>
+            <a href="#">🌐<span>繁中</span></a>
+            <a href="#">$<span>TWD</span></a>
+        </div>
+    </header>
+
+    <main>
+        <section class="banner">
+            <img src="https://picsum.photos/1920/600" alt="首頁主視覺">
+        </section>
+
+        <section class="search-box">
+            <ul class="tabs">
+                <li class="active">航班</li>
+                <li>樂虎卡</li>
+                <li>虎加滷</li>
+                <li>虎里轉</li>
+            </ul>
+
+            <form class="search-form">
+                <select class="trip-type">
+                    <option>來回</option>
+                    <option>單程</option>
+                </select>
+
+                <div class="route">
+                    <input type="text" placeholder="出發地">
+                    <input type="text" placeholder="目的地">
+                </div>
+
+                <div class="dates">
+                    <input type="date">
+                    <input type="date">
+                </div>
+
+                <select class="passengers">
+                    <option>1 成人 - 0 兒童 - 0 嬰兒</option>
+                </select>
+
+                <div class="form-bottom">
+                    <a href="#">加入促銷代碼</a>
+                    <button type="submit">搜尋</button>
+                </div>
+            </form>
+        </section>
+
+        <ul class="quick-links">
+            <li>
+                <a href="#">
+                    <span class="icon">📋</span>
+                    管理訂單
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <span class="icon">✈️</span>
+                    自助報到
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <span class="icon">📅</span>
+                    航班動態
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <span class="icon">🛍️</span>
+                    免稅品購買
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <span class="icon">❓</span>
+                    常見問題
+                </a>
+            </li>
+        </ul>
+
+    </main>
+</body>
+
+</html>/
